@@ -12,7 +12,6 @@ public class Test05 {
 		int paramDay = 24;
 
 		result = solution(paramMonth, paramDay);
-		System.out.println("result : " + result);
 	}
 
 	public static String solution(int a, int b) {
