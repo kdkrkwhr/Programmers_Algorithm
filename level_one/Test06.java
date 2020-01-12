@@ -1,24 +1,35 @@
 package level_one;
 
-// 가운데 글자 가져오기
+import java.util.*;
+
+// 같은 숫자는 싫어
 public class Test06 {
 
 	public static void main(String[] args) {
-		String result;
-		String paramStr = "가나다라";
+		int[] result;
+		int[] paramArr = { 1, 1, 3, 3, 0, 1, 1 };
 
-		result = solution(paramStr);
+		result = solution(paramArr);
 	}
 
-	public static String solution(String s) {
-		String answer = "";
+	public static int[] solution(int[] arr) {
+		ArrayList<Integer> arrList = new ArrayList<Integer>();
+		int idx = 10;
+		int[] answer = {};
 
-		int strLength = s.length();
-		int diffNum = 0;
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != idx) {
+				arrList.add(arr[i]);
+				idx = arr[i];
 
-		if (strLength % 2 == 0) diffNum--;
+			}
+		}
 
-		answer = s.substring(strLength / 2 + diffNum, (strLength / 2) + 1);
+		answer = new int[arrList.size()];
+
+		for (int i = 0; i < arrList.size(); i++) {
+			answer[i] = arrList.get(i);
+		}
 
 		return answer;
 	}
