@@ -8,7 +8,7 @@ public class Test01 {
 	public static void main(String[] args) {
 		String result;
 
-		String[] participant = {"leo", "kiki", "eden"};
+		String[] participant = {"kiki", "eden", "leo"};
 		String[] completion = {"eden", "kiki"};
 
 		result = solution(participant, completion);
