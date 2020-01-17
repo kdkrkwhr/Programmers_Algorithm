@@ -39,6 +39,7 @@ public class Test02 {
 			}
 
 		}
+
 		return answer;
 	}
 }
