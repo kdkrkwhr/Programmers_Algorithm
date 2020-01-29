@@ -10,9 +10,6 @@ public class TopSolution {
 		int[] paramStr = { 6, 9, 5, 7, 4 };
 
 		result = solution(paramStr);
-		for (int i : result) {
-			System.out.println(i);
-		}
 	}
 
 	public static int[] solution(int[] heights) {
