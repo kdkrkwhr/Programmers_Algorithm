@@ -2,7 +2,7 @@ package level_two;
 
 import java.util.*;
 
-// 프린터
+// 프린터 
 public class PrinterSolution {
 
 	public static void main(String[] ar) {
