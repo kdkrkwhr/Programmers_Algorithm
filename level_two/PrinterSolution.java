@@ -2,7 +2,7 @@ package level_two;
 
 import java.util.*;
 
-// ÇÁ¸°ÅÍ
+// í”„ë¦°í„°
 public class PrinterSolution {
 
 	public static void main(String[] ar) {
